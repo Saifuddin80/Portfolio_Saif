@@ -1,0 +1,117 @@
+
+@media only screen and (min-width: 800px) {
+    /* ====== Header Section ======= */
+    .header-area {  
+        padding: 0 2%;
+    }
+    
+   .logo h3{
+    font-weight: 900;
+    letter-spacing: .15rem;
+   }
+   .nav-area {
+    display: block;
+   }
+   .nav-area ul{
+    position: initial;
+    flex-flow: row nowrap;
+    background: transparent;
+    border: transparent;
+}
+.nav-area ul li{
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    transition: border .99s ease;
+}
+   .nav-area ul li a{
+    padding: .8rem .5rem;
+    padding: .5rem .4rem;
+    color: dodgerblue;
+    font-size: 1.2rem;
+   }
+   .nav-area ul li a:hover{
+    color: #fff;
+   }
+    .nav-area ul li:hover{
+        border-bottom: .1rem solid dodgerblue;
+    }
+    .nav-area ul li{
+        margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+        transition: border .99s ease;
+    }
+    .hamberger {
+        display: none;
+    }
+    .hamberger i {
+        font-size: 1.2rem;
+    }
+/* ======= Hero Section ======== */
+section {
+    padding: 3rem 10% 2rem;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    }
+.hero-section {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .text-content {
+    text-align: left;
+    min-width: 360px;
+}
+ .hero-section .img-content {
+    min-width: 360px;
+    max-width: 50%;
+    text-align: center;
+    padding: 5% 0 5% 5%;
+}
+.hero-section .text-content h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 900;    
+    text-align: left;
+}
+.hero-section .text-content p{
+    text-align: left;
+}
+
+/* =====About Section===== */
+.about-section .img-content {
+    min-width: 360px;
+    max-width: 50%;
+    text-align: center;
+    padding: 5% 5% 5% 0%;
+}
+
+/* contact Section */
+contact-section {
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.contact-section .contact-form {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* justify-content: center; */
+    gap: 1.5rem;
+}
+.contact-section .contact-form .form, .contact-section .contact-form .address {
+    width: 50%;
+}
+.section-header {
+    text-align: center;
+    margin: 0 auto 3rem;
+    width: 100%;
+}
+.section-header h2{
+    font-size: 3rem;
+    color: var(--h2-color);
+    font-weight: bold;
+}
+}
